@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Enter tge numebr");
+        int number = scanner.nextInt(); 
+
+       
+        scanner.nextLine()
+        System.out.println("enter string");
+        String text = scanner.nextLine(); 
+       
+       System.out.println("enter chara");
+        
+        char character = scanner.next().charAt(0); 
+
+        
+        System.out.print(" "+number);
+        System.out.print(" "+text);
+        System.out.print(" "+character);
+    }
+}
